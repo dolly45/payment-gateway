@@ -28,6 +28,21 @@ pgResponse.php – This file has the logic for processing PG response after the 
 
 TxnStatus.php – Testing Status Query API
 
+U can test by making the Test mode 'ON' in paytm and use the following details:
+
+1. Staging CC/DC Credentials:
+        Card number : Any valid VISA or MASTER Card, 
+        Expiry date : Ant future date from transaction date, 
+        CVV : Any 3 digit number, 
+        OTP : 123123 (To Test successful transaction)
+        
+2. Staging Wallet Credentials:
+      Mobile number : 7777777777, 
+      Password : Paytm12345,
+      OTP : 489871
+      
+Login using the number 7777777777 and OTP as 489871.
+
 And to send email :
 
 Download composer for windows. And make necessary changes (add yor email n password) in pgResponse.php for sending email to the user.
